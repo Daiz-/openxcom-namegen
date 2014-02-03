@@ -27,6 +27,9 @@ A small command-line utility for generating namelist files for [OpenXcom](http:/
 ```
 
 By default, the namefiles will be placed into a `SoldierName` directory. After generation, you can simply copy the directory to your `[OpenXcom Path]\data` directory - you'll probably want to back up the original `SoldierName` directory first!
+
+**IMPORTANT:** It is recommended that you use the nightly builds for this, as they support namelists without last names. You can use the `-s/--stable` flag to generate namelist files for the latest stable (0.9), but your soldier names will end in two empty spaces in that case.
+
 ## Namefile
 
 Your namefile (`names.txt` by default) should have the following format:
