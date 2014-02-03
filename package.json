@@ -1,7 +1,7 @@
 {
   "name": "openxcom-namegen",
   "preferGlobal": true,
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Namelist generator for OpenXcom",
   "author": "Daiz <taneli.vatanen@gmail.com>",
   "license": "MIT",
