@@ -6,7 +6,7 @@
   "author": "Daiz <taneli.vatanen@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "postinstall": "lsc make"
+    "prepublish": "lsc make"
   },
   "bin": {
     "openxcom-namegen": "./bin/openxcom-namegen"
