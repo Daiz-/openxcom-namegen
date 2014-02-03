@@ -1,0 +1,32 @@
+{
+  "name": "openxcom-namegen",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "description": "Namelist generator for OpenXcom",
+  "author": "Daiz <taneli.vatanen@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "lsc make"
+  },
+  "bin": {
+    "openxcom-namegen": "./bin/openxcom-namegen"
+  },
+  "dependencies": {
+    "optimist": "~0.6.0",
+    "shelljs": "~0.2.6",
+    "js-yaml": "~3.0.1",
+    "LiveScript": "~1.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Daiz-/openxcom-namegen.git"
+  },
+  "keywords": [
+    "xcom",
+    "game"
+  ],
+  "bugs": {
+    "url": "https://github.com/Daiz-/openxcom-namegen/issues"
+  }
+}
